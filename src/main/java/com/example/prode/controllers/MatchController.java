@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/matches")
 public class MatchController {
 
-    private MatchService matchService;
+    private final MatchService matchService;
 
     @Autowired
     public MatchController(MatchService matchService) {

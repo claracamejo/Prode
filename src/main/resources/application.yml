@@ -6,3 +6,9 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+  security:
+    filter:
+      order: 10
+
+jwt:
+  secret: 'secret'
